@@ -1,0 +1,106 @@
+.Cards{
+   width: 100%;
+   display: flex;
+   
+   justify-content: center;
+    align-content: center;
+    padding: 8rem 0 8rem 0;
+}
+
+.Cards h1{
+   font-family: var(--font);
+   font-size: 2rem;
+   margin: 1rem;
+   line-height: 2rem;
+   font-weight: 700;
+}
+.Cards p{
+   font-family: var(--font);
+   font-size: 1rem;
+   margin: 1rem;
+   font-weight: 400;
+   line-height: 2rem;
+}
+
+.team{
+  max-width:  1200px;
+  width: 100%;
+   height: 100%;
+    background-color: var(--white);
+   
+    display: flex;
+    flex-direction: row;
+   gap: 1rem;
+    overflow-x: scroll; 
+    
+}
+::-webkit-scrollbar {
+   display: none;
+}
+
+
+
+.tag{
+   background-color: blueviolet;
+   padding: 0.5rem 2rem 0.5rem 2rem;
+   margin: 1rem;
+   color: #F0EFEE;
+   display: flex;
+   border-radius: 24px;
+  
+}
+.card{
+   width:3400px;
+   background-color: #F0EFEE;
+   border-radius: 24px;
+   padding: 1rem;
+   
+}
+.card .img{
+   background-image: url(../images/card.jpg);
+   background-size: cover;
+   border-radius: 24px 24px 0px 24px;
+   height: 176px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+}
+.card .img2{
+   background-image: url(../images/card.jpg);
+   background-size: cover;
+   border-radius: 24px 24px 0px 24px;
+   height: 176px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+.tag3{
+  
+  
+   margin: 1rem;
+  
+  
+}
+
+
+.card .tag2{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+}
+.card .tag2 button{
+   background-color: #F8DEAB;
+   width: 136px;
+   border-radius: 16px;
+   border-width: 2px;
+   padding: 0 1rem 0 1rem;
+
+}
+.card .tag2  .but{
+   background-color: #91723400;
+   width: 136px;
+   border-radius: 16px;
+   border-width: 2px;
+   padding: 0 1rem 0 1rem;
+
+}

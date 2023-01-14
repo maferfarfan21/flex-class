@@ -1,0 +1,1 @@
+export { default as Teambehind } from './Team-behind'
